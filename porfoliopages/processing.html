@@ -1,0 +1,132 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>processing</title>
+	<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+  <h1 class="text-center display-1">Photoshop</h1>
+  <p class="text-center">by Sosofarsosofie</p> 
+	<nav class="navbar navbar-expand-sm bg-info navbar-dark">
+  <ul class="navbar-nav">
+    <li class="nav-item active">
+      <a class="nav-link" href="../index.html">Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="about.html">About</a>
+    </li>
+  </ul>
+</nav>
+		<img src="../img/Screenshot (13).png">
+		<p>size(600,600);
+smooth(); // Turns on smoothing;
+background(255,151,33);
+
+strokeWeight(6); // Stroke weight to 6 pixels
+//back hair
+fill(132,44,25);
+rect(175,235,300,150);
+//head and neck
+fill(239,196,170); //neck
+rect(300,350, 30,150);//neck
+
+fill(255,226,209);//head
+ellipse(300,280, 280,230);//head
+arc(250, 295, 70, 50, radians(450), radians(600));
+//hair
+fill(132,44,25);
+rect(380,235,115,150);
+
+//top hair
+fill(132,44,25);
+arc(320,240,350,300, radians(180), radians (360));
+
+//ear
+fill(255,226,209);
+arc(433,280,85,80, radians(270), radians(460));
+
+ 
+
+strokeWeight(6); // Stroke weight to 6 pixels
+fill(255,255,255);
+ellipse(310,255,100,100);
+ellipse(200,255,92,92);
+
+strokeWeight(3); // Stroke weight to 3 pixels
+fill(255,226,209);
+arc(308,255,100,100, radians(200), radians(360));
+arc(200,255,92,92, radians(180), radians(340));
+
+
+strokeWeight(3); // Stroke weight to 3 pixels
+fill(114,45,2);
+ellipse(310,255,55,50);
+fill(0,0,0);
+ellipse(310,255,25,20);
+fill(114,45,2);
+ellipse(200,255,50,45);
+fill(0,0,0);
+ellipse(200,258,20,15);
+strokeWeight(6); // Stroke weight to 6 pixels
+fill(0,0,0);
+arc(306,255,114,50,radians (220), radians(380));
+fill(0,0,0);
+arc(200,255,100,52, radians(150),radians(330));
+
+strokeWeight(2); // Stroke weight to 2 pixels
+strokeJoin(ROUND);
+fill(56,23,0);
+quad(180,200, 230,190, 230,200,150,210);
+fill(56,23,0);
+quad(270,190, 340,195, 370,205, 270,200);
+
+//lips
+strokeWeight(1);
+fill(206,94,90);
+ellipse(280,350,30,30);
+fill(255,144,140);
+arc(280,350,30,30, radians(320), radians(530));
+
+//clothes
+strokeWeight(6);
+fill(2,122,124);
+quad(250,448,280,460,300,600,200,600);
+arc(273,455,50,50, radians(180), radians(360));
+fill(36,171,173);
+quad(265,430,380,430,390,600,230,600);
+fill(2,122,124);
+quad(355,450,404,450,425,600,345,600);
+arc(379,455,50,50, radians(180), radians(360));
+
+//neck
+fill(239,196,170);
+arc(315,425,30,30, radians(0),radians(180));
+
+//little circles
+noStroke();
+fill(255,197,132);
+ellipse (60,80,50,50);
+ellipse(60,160,50,50);
+ellipse(60,240,50,50);
+ellipse(540,520,50,50);
+ellipse(540,440,50,50);
+ellipse(540,360,50,50);
+ellipse(60,520,50,50);
+ellipse(540,80,50,50);</p>
+		
+	</div>
+</body>
+</html>
